@@ -1,4 +1,4 @@
-package com.jos.dem.springboot.model;
+package com.jos.dem.springboot.webclient.model;
 
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
