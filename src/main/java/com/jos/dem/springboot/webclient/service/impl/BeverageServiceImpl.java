@@ -12,7 +12,7 @@ import com.jos.dem.springboot.webclient.service.BeverageService;
 @Service
 public class BeverageServiceImpl implements BeverageService {
 
-  private WebClient client = WebClient.create("http://jugoterapia.josdem.io/jugoterapia-server");
+  private WebClient client = WebClient.create("https://jugoterapia.josdem.io/jugoterapia-server");
 
   public Mono<Beverage> getBeverage(Long id){
     return client.get()
